@@ -34,6 +34,11 @@ brew install --cask pastepal
 
 **Homepage:** https://github.com/BigVik193/pastepal
 
+**Note:** If you see "PastePal is damaged", run:
+```bash
+sudo xattr -rd com.apple.quarantine /Applications/PastePal.app
+```
+
 ## Uninstalling
 
 ```bash
